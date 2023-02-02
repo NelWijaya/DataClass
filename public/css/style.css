@@ -81,8 +81,8 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
 }
 
 #benefits .cards .card-group .card .img-card img, #pricing .card-group .card .img-card img{
-    width: 24px;
-    height: 24px;
+    width: 24px !important;
+    height: 24px !important;
 }
 
 #benefits .cards .card-group .card .img-card, #pricing .card-group .card .img-card{
@@ -157,3 +157,15 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
     border: solid 1px #D7D7D7;
 }
 
+/* Animation */
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
