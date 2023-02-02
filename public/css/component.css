@@ -45,12 +45,20 @@ h3{
     line-height: 48px;
 }
 
+h4{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+}
+
 h5{
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
     margin-bottom: 6px !important;
 }
+
+
 
 p{
     font-weight: 400;

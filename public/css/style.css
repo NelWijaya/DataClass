@@ -5,6 +5,7 @@ body{
     font-family: 'Poppins';
     color: var(--Black) !important;
     padding: 30px 0px;
+    padding-bottom: 300px;
 }
 
 .container{
@@ -68,35 +69,35 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
     background-color: var(--GreyBG);
 }
 
-#benefits .cards .card-group .card{
+#benefits .cards .card-group .card, #pricing .card-group .card{
     margin: 0px 15px;
     padding: 30px;
     border-radius: 28px;
     border: none;
 }
 
-#benefits .cards .card-group, #benefits .cards .card-group .card .card-body{
+#benefits .cards .card-group, #benefits .cards .card-group .card .card-body, #pricing .card-group, #pricing .card-group .card .card-body{
     margin-top: 30px;
 }
 
-#benefits .cards .card-group .card .img-card img{
+#benefits .cards .card-group .card .img-card img, #pricing .card-group .card .img-card img{
     width: 24px;
     height: 24px;
 }
 
-#benefits .cards .card-group .card .img-card{
+#benefits .cards .card-group .card .img-card, #pricing .card-group .card .img-card{
     width: max-content;
     padding: 18px;
     border: solid 1px var(--BorderColorCard);
     border-radius: 18px;
 }
 
-#benefits .cards .card-group .card:first-child{
+#benefits .cards .card-group .card:first-child, #pricing .card-group .card:first-child{
     margin: 0px;
     margin-right: 15px;
 }
 
-#benefits .cards .card-group .card:last-child{
+#benefits .cards .card-group .card:last-child, #pricing .card-group .card:last-child{
     margin: 0px;
     margin-left: 15px;
 }
@@ -104,6 +105,40 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
 /* Pricing */
 #pricing{
     background-color: var(--Black);
+    max-height: 640px;
+}
+
+#pricing .card-group .card:first-child{
+    height: max-content;
+}
+
+#pricing .card-group .card .card-body ul.benefit{
+    list-style-type: none;
+    padding: 0px;
+}
+
+#pricing .card-group .card .card-body ul.benefit li{
+    /* list-style-image: url('/public/images/icons/ic_check.svg'); */
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+#pricing .card-group .card .card-body ul.benefit li img{
+    margin-right: 8px;
+}
+
+#pricing .card-group .card .card-body ul.benefit li:first-child{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+#pricing .card-group .card .card-body ul.benefit li:last-child{
+    margin: 0px;
+    margin-top: 20px;
+}
+
+#pricing .card-group .card .card-body a.btn{
+    margin-top: 30px;
 }
 
 #pricing h3{
@@ -113,3 +148,12 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
 #pricing p{
     color: #A59FB7;
 }
+
+#pricing .card-group .card p.text-body{
+    line-height: 24px;
+}
+
+#pricing .card-group .card{
+    border: solid 1px #D7D7D7;
+}
+
