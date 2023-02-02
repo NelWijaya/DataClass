@@ -1,0 +1,115 @@
+@import url("/public/css/variable.css");
+@import url("/public/css/component.css");
+
+body{
+    font-family: 'Poppins';
+    color: var(--Black) !important;
+    padding: 30px 0px;
+}
+
+.container{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.btn{
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+section{
+    padding: 70px 0px !important;
+}
+
+/* Nav */
+nav.navbar div.collapse.navbar-collapse li a.nav-link{
+    font-weight: var(--Reguler);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--Black) !important;
+    padding: 0px 50px 0px 0px;
+}
+
+nav.navbar div.collapse.navbar-collapse li a.nav-link > last-child{
+    padding: 0px;
+}
+
+nav.navbar div.collapse.navbar-collapse li a.nav-link:hover{
+    color: var(--Purple) !important;
+}
+
+nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
+    font-weight: var(--SemiBold);
+    color: var(--Purple) !important;
+}
+
+/* Hero */
+#hero span img{
+    width: 46px;
+    height: 46px;
+}
+#hero h1, #hero p{
+    margin-bottom: 18px;
+}
+
+#hero #client, #hero #client #brands{
+    margin-top: 50px;
+}
+
+#hero #client #brands div.row:first-child{
+    margin-bottom: 40px;
+}
+
+
+/* Benefits */
+#benefits{
+    background-color: var(--GreyBG);
+}
+
+#benefits .cards .card-group .card{
+    margin: 0px 15px;
+    padding: 30px;
+    border-radius: 28px;
+    border: none;
+}
+
+#benefits .cards .card-group, #benefits .cards .card-group .card .card-body{
+    margin-top: 30px;
+}
+
+#benefits .cards .card-group .card .img-card img{
+    width: 24px;
+    height: 24px;
+}
+
+#benefits .cards .card-group .card .img-card{
+    width: max-content;
+    padding: 18px;
+    border: solid 1px var(--BorderColorCard);
+    border-radius: 18px;
+}
+
+#benefits .cards .card-group .card:first-child{
+    margin: 0px;
+    margin-right: 15px;
+}
+
+#benefits .cards .card-group .card:last-child{
+    margin: 0px;
+    margin-left: 15px;
+}
+
+/* Pricing */
+#pricing{
+    background-color: var(--Black);
+}
+
+#pricing h3{
+    color: var(--White);
+}
+
+#pricing p{
+    color: #A59FB7;
+}

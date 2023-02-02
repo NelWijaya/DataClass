@@ -1,0 +1,24 @@
+:root{
+    /* Color */
+    --Black: #20104C;
+    --Gray: #6F697E;
+    --Grey: #E7DFFF;
+    --GreyBG: #F9F9F9;
+    --White: #fff;
+
+    --Purple1:#F2EDFF;
+    --Purple2:#E2D9FF;
+    --Purple3:#C2AEFF;
+    --Purple: #7443FF;
+
+    --Green:#08E279;
+
+    --BorderColorCard: #D7D7D7;
+
+    /* Font Weight */
+    --Reguler: 400;
+    --Medium: 500;
+    --SemiBold: 600;
+    --Bold: 700;
+    --ExtraBold: 800;
+}
