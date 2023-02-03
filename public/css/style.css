@@ -6,6 +6,7 @@ body{
     color: var(--Black) !important;
     padding: 0px 0px 30px 0px;
     margin-bottom: 300px;
+    overflow-x: hidden !important;
 }
 
 .container{
@@ -113,10 +114,93 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
     margin-left: 15px;
 }
 
+/* Roadmap */
+#roadmap{
+    height: max-content;
+}
+
+#card-rem{
+    position: absolute;
+    width:396px;
+    top: 50px;
+    left: -3px;
+    z-index: 1;
+    padding: 44px 15px 26px;
+    background-color: var(--White);
+    border-radius: 18px !important;
+}
+
+#card-rem p{
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+#roadmap .row:last-child #road-info{
+    position: relative;
+}
+
+#roadmap .row:last-child .col{
+    margin-top: 37px;
+    padding: 13px 12px 5px;
+    background-image: url('/public/images/tb_road.webp');
+
+}
+
+#roadmap .row:last-child .col .row div.bar{
+    padding: 30px 0px;
+    max-width: 350px !important;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+#roadmap .row:last-child .col .row div.bar#rec{
+    background-color: var(--Purple1);
+}
+
+#roadmap .row:last-child .col .row div.bar#liv{
+    background-color: var(--Purple2);
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+#roadmap .row:last-child .col .row div.bar#qa{
+    background-color: var(--Purple3);
+}
+
+#roadmap .row:last-child .col .row div.bar#big{
+    background-color: var(--Purple);
+}
+
+#roadmap .row:last-child .col .row div.bar#big p{
+    color: var(--White) !important;
+}
+
+#roadmap .row:last-child .col .row div.bar p{
+    font-weight: 600;
+    line-height: 27px;
+    color: var(--Black) !important;
+}
+
+#roadmap .row:last-child .col .row div.bar p img{
+    /* margin-right: 10px; */
+    width: 24px;
+    height: 24px;
+}
+
+#roadmap .row:last-child .col .row:first-child{
+    margin-bottom: 40px;
+}
+
+
 /* Pricing */
 #pricing{
     background-color: var(--Black);
     max-height: 640px;
+    background-image: url('/public/images/background.png'); 
+    background-size: cover;
+    height: 640px;
 }
 
 #pricing .card-group .card:first-child{
