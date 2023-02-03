@@ -202,6 +202,7 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
     background-image: url('/public/images/background.png'); 
     background-size: cover;
     height: 640px;
+    margin-top: 70px;
 }
 
 #pricing .card-group .card:first-child{
