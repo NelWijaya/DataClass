@@ -167,6 +167,7 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
 
 #roadmap .row:last-child .col .row div.bar#qa{
     background-color: var(--Purple3);
+    margin-top: 100px;
 }
 
 #roadmap .row:last-child .col .row div.bar#big{
