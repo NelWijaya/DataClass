@@ -119,7 +119,7 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
     height: max-content;
 }
 
-#card-rem{
+#card-info-liv, #card-info-rec{
     position: absolute;
     width:396px;
     top: 50px;
@@ -130,13 +130,24 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
     border-radius: 18px !important;
 }
 
-#card-rem p{
+#liv:hover + #card-info-liv{
+    opacity: 1;
+}
+
+.card-info{
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s  ease-in-out;
+}
+
+.card-info p{
     font-size: 16px;
     line-height: 32px;
     margin-bottom: 10px;
 }
 
-#roadmap .row:last-child #road-info{
+#roadmap .row:last-child .bar-info {
     position: relative;
 }
 
