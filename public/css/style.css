@@ -119,26 +119,18 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
     height: max-content;
 }
 
-#card-info-liv, #card-info-rec{
-    position: absolute;
-    width:396px;
-    top: 50px;
-    left: -3px;
+.custom-tooltip{
     z-index: 1;
-    padding: 44px 15px 26px;
-    background-color: var(--White);
-    border-radius: 18px !important;
-}
-
-#liv:hover + #card-info-liv{
-    opacity: 1;
+    top: -20px !important;
+    left: -100px !important;
+    --bs-tooltip-bg: transparent !important;
 }
 
 .card-info{
-    opacity: 0;
-    transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -webkit-transition: opacity .2s  ease-in-out;
+    width:396px;
+    padding: 44px 15px 26px;
+    background-color: var(--White);
+    border-radius: 18px !important;
 }
 
 .card-info p{
@@ -171,14 +163,13 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
 
 #roadmap .row:last-child .col .row div.bar#liv{
     background-color: var(--Purple2);
-    position: absolute;
-    z-index: 2;
+    z-index: 5;
     width: 100%;
 }
 
 #roadmap .row:last-child .col .row div.bar#qa{
     background-color: var(--Purple3);
-    margin-top: 100px;
+    z-index: 5;
 }
 
 #roadmap .row:last-child .col .row div.bar#big{

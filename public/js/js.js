@@ -1,3 +1,4 @@
+// Animation Effect
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
   
@@ -13,7 +14,7 @@ function reveal() {
         }
         }
 }
-  
+
 window.addEventListener("scroll", reveal);
 
 window.addEventListener('scroll',(e)=>{
@@ -24,3 +25,8 @@ window.addEventListener('scroll',(e)=>{
       nav.classList.remove("add-shadow");
     }
 });
+
+// Active Tooltip
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  
