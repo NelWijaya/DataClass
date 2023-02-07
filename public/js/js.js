@@ -30,3 +30,23 @@ window.addEventListener('scroll',(e)=>{
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
   
+// Tooltip
+
+const content = `'<div class="card card-info"><div class="row"><div class="col py-0 m-0 pe-2"><img src="/public/images/info-1.png" alt="/public/images/info-1.png" class="img-fluid"></div><div class="col py-0 m-0 ps-2"><img src="/public/images/info-2.png" alt="/public/images/info-2.png" class="img-fluid"></div></div><div class="card-body p-0 text-start"><p>Building first data science project can be tricky, we will provide template for you ipsum.</p><a href="#">Learn More</a></div></div>'`;
+tippy('#rec, #liv, #qa', {
+  content: content,
+  placement: 'right',
+  animation: 'fade',
+  allowHTML: true,
+  arrow: false,
+  theme: 'all-bar',
+});
+
+tippy('#big', {
+  content: content,
+  placement: 'left',
+  animation: 'fade',
+  allowHTML: true,
+  arrow: false,
+  theme: 'bar-last',
+});

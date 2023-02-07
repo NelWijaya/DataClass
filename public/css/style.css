@@ -121,7 +121,7 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
 
 .custom-tooltip{
     z-index: 1;
-    top: -20px !important;
+    top: -40px !important;
     left: -100px !important;
     --bs-tooltip-bg: transparent !important;
 }
@@ -271,4 +271,18 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
 
 .add-shadow{
     box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.15);
+}
+
+.tippy-box[data-theme~='all-bar'] {
+    background-color: transparent;
+    top: 160px !important;
+    left: -380px !important;
+    margin: 0px !important;
+}
+
+.tippy-box[data-theme~='bar-last'] {
+    background-color: transparent;
+    top: 160px !important;
+    right: -340px !important;
+    margin: 0px !important;
 }
