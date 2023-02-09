@@ -71,6 +71,10 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
     margin-bottom: 18px;
 }
 
+#client{
+    margin-top: 120px !important;
+}
+
 #hero #client, #hero #client #brands{
     margin-top: 50px;
 }
@@ -83,6 +87,10 @@ nav.navbar div.collapse.navbar-collapse li a.nav-link.active{
 /* Benefits */
 #benefits{
     background-color: var(--GreyBG);
+}
+
+#benefits .cards .card-group .card{
+    min-width: 201px !important;
 }
 
 #benefits .cards .card-group .card, #pricing .card-group .card{
